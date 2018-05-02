@@ -14,6 +14,7 @@
 		5704AA4C2099981900F44794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5704AA4A2099981900F44794 /* LaunchScreen.storyboard */; };
 		5704AA572099981900F44794 /* ColorBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704AA562099981900F44794 /* ColorBallTests.swift */; };
 		5704AA622099981900F44794 /* ColorBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704AA612099981900F44794 /* ColorBallUITests.swift */; };
+		5704AA702099995C00F44794 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704AA6F2099995C00F44794 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5704AA5D2099981900F44794 /* ColorBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5704AA612099981900F44794 /* ColorBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBallUITests.swift; sourceTree = "<group>"; };
 		5704AA632099981900F44794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5704AA6F2099995C00F44794 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				5704AA412099981700F44794 /* AppDelegate.swift */,
 				5704AA432099981700F44794 /* ViewController.swift */,
 				5704AA452099981700F44794 /* Main.storyboard */,
+				5704AA6F2099995C00F44794 /* MyViewController.swift */,
 				5704AA482099981900F44794 /* Assets.xcassets */,
 				5704AA4A2099981900F44794 /* LaunchScreen.storyboard */,
 				5704AA4D2099981900F44794 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5704AA442099981700F44794 /* ViewController.swift in Sources */,
+				5704AA702099995C00F44794 /* MyViewController.swift in Sources */,
 				5704AA422099981700F44794 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
